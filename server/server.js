@@ -1317,8 +1317,8 @@ if (fs.existsSync(clientDist)) {
 // START SERVER
 // ═══════════════════════════════════════════════════════════════════════════════
 
-app.listen(PORT, () => {
-  console.log(`\n✅ Trust ERP Server v2 running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`\n✅ Trust ERP Server v2 running on http://0.0.0.0:${PORT}`);
   console.log(`📡 Mock Tally target: http://127.0.0.1:${TALLY_PORT}`);
   console.log(`\n👤 Demo credentials:`);
   console.log(`   Admin:      admin@trust.org / Admin123`);
