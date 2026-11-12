@@ -1,0 +1,9 @@
+{
+  "name": "trust-erp-monorepo",
+  "version": "1.0.0",
+  "description": "Trust ERP & Tally Integration System",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "cd server && node server.js"
+  }
+}

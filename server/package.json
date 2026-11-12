@@ -1,0 +1,21 @@
+{
+  "name": "trust-tally-server",
+  "version": "1.0.0",
+  "description": "Backend API & Tally XML Integration Bridge for Charitable Trust",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.5.0",
+    "pdfkit": "^0.20.2",
+    "uuid": "^11.1.0"
+  }
+}
